@@ -6,7 +6,7 @@ use crate::{
     InputCallbackInfo, OutputCallbackInfo, PauseStreamError, PlayStreamError, SampleFormat,
     StreamConfig, StreamError, SupportedStreamConfig, SupportedStreamConfigsError,
 };
-use traits::{DeviceTrait, HostTrait, StreamTrait};
+use crate::traits::{DeviceTrait, HostTrait, StreamTrait};
 
 pub use self::device::{Device, Devices, SupportedInputConfigs, SupportedOutputConfigs};
 pub use self::stream::Stream;
